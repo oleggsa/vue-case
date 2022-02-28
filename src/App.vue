@@ -3,6 +3,7 @@
     <Preview/>
     <Task/>
     <Stack/>
+    <Approach/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Preview from "@/components/Preview";
 import Task from "@/components/Task";
 import Stack from "@/components/Stack";
+import Approach from "@/components/Approach";
 
 export default {
   components: {
     Preview,
     Task,
-    Stack
+    Stack,
+    Approach
   }
 }
 </script>
