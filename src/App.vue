@@ -2,17 +2,20 @@
   <div>
     <Preview/>
     <Task/>
+    <Stack/>
   </div>
 </template>
 
 <script>
 import Preview from "@/components/Preview";
 import Task from "@/components/Task";
+import Stack from "@/components/Stack";
 
 export default {
   components: {
     Preview,
-    Task
+    Task,
+    Stack
   }
 }
 </script>
