@@ -5,6 +5,7 @@
     <Stack/>
     <Approach/>
     <Result/>
+    <Reviews/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Task from "@/components/Task";
 import Stack from "@/components/Stack";
 import Approach from "@/components/Approach";
 import Result from "@/components/Result";
+import Reviews from "@/components/Reviews";
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Task,
     Stack,
     Approach,
-    Result
+    Result,
+    Reviews
   }
 }
 </script>
@@ -35,7 +38,8 @@ export default {
 }
 
 body {
-  background: #455db8;
+  background: #192967;
+;
   margin: 0;
   padding: 0;
 }
