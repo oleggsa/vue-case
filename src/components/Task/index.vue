@@ -42,12 +42,29 @@ export default {
 
 <style lang="scss" scoped>
 .task {
-  margin-top: 107px;
+  margin-top: 104px;
   &__items {
     margin-top: 66px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  .task {
+    &__items {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .task {
+    margin-top: 94px;
+    &__items {
+      margin-top: 42px;
+    }
   }
 }
 </style>

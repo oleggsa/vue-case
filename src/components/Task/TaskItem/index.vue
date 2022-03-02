@@ -41,7 +41,7 @@ export default {
       font-size: 100px;
       color: #0087E0;
       top: -103px;
-      left: 20px;
+      left: 23px;
     }
     & img{
       width: 100%;
@@ -58,6 +58,63 @@ export default {
   &__img {
     text-align: right;
     margin-top: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .task {
+    &__item {
+      width: 49%;
+      margin-bottom: 28px;
+      &:nth-child(odd) {
+        margin-right: 3px;
+      }
+    }
+    &__header {
+      & p {
+        font-size: 10vw;
+        top: -10vw;
+        left: 2.5vw;
+      }
+    }
+    &__text {
+      top: 4vw;
+      left: 12vw;
+    }
+    &__img {
+      text-align: right;
+      margin-top: 12px;
+      & img {
+        width: 78%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .task {
+    &__text {
+      font-size: 2.5vw;
+    }
+    &__img {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .task {
+    &__text {
+      font-size: 14px;
+      line-height: 110%;
+      font-weight: normal;
+    }
+    &__img {
+      margin-top: 46px;
+      & img {
+        max-height: 252px;
+      }
+    }
   }
 }
 </style>

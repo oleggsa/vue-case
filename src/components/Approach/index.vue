@@ -42,9 +42,9 @@ export default {
 
 <style lang="scss" scoped>
 .approach {
-  margin-top: 103px;
+  margin-top: 118px;
   &__content {
-    width: 912px;
+    max-width: 912px;
     margin: 0 auto;
   }
   &__items {
@@ -52,6 +52,18 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+}
+
+@media(max-width: 576px){
+  .header {
+    font-size: 56px;
+  }
+  .approach {
+    margin-top: 167px;
+    &__items {
+      justify-content: center;
+    }
   }
 }
 </style>

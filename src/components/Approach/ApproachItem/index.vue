@@ -34,4 +34,13 @@ export default {
     line-height: 115%;
   }
 }
+
+@media (max-width: 576px) {
+  .approach {
+    &__item {
+      margin: 0 30px;
+      height: 193px;
+    }
+  }
+}
 </style>

@@ -20,10 +20,11 @@ export default {
 
 <style lang="scss" scoped>
 .result {
+  margin-top: 93px;
   &__content {
-    margin-top: 90px;
     & img {
       margin-top: 30px;
+      max-width: 100%;
     }
   }
   &__text {
@@ -31,6 +32,20 @@ export default {
     font-size: 24px;
     color: #CADEFB;
     text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 56px;
+  }
+  .result {
+    margin: 36px 10px 0;
+    &__text {
+      margin-top: 31px;
+      font-size: 14px;
+      line-height: 115%;
+    }
   }
 }
 </style>

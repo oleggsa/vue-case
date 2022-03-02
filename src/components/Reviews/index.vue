@@ -23,6 +23,19 @@ export default {
     text-align: center;
     & img {
       margin-top: 89px;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 56px;
+  }
+  .reviews {
+    margin: 63px 10px 100px;
+    &__content img {
+      margin-top: 30px;
     }
   }
 }

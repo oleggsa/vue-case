@@ -56,4 +56,8 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (max-width: 992px) {
+
+}
 </style>

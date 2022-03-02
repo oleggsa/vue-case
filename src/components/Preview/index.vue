@@ -14,10 +14,12 @@
           helps to track statistics, automates most of the processes and automatically adds accounting
           records and exports accounting reports.
         </div>
+        <div class="preview__image">
+          <img src="../../../images/top-screen.png" alt="screen">
+        </div>
         <div class="preview__text-img">
           <img src="../../../images/top-screenshot.png" alt="screenshot">
         </div>
-        <div class="preview__image"><img src="../../../images/top-screen.png" alt="screen"></div>
       </div>
     </div>
   </div>
@@ -65,6 +67,49 @@ $color: red;
     position: absolute;
     top: 134px;
     left: 584px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .preview {
+    margin: 10px;
+    &__text {
+      width: 100%;
+      & .desqr {
+        margin-top: 10px;
+      }
+    }
+    &__image {
+      margin-top: 10px;
+      display: block;
+      position: initial;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .preview {
+    &__text {
+      & .title, .subtitle {
+        font-weight: 600;
+        font-size: 48px;
+      }
+      & .subtitle {
+        margin-top: 15px;
+      }
+      & .desqr {
+        font-weight: 500;
+      }
+      &-img {
+        margin-left: 5px;
+      }
+    }
   }
 }
 </style>
